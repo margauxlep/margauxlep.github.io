@@ -22,7 +22,49 @@ De plus, il nous faut également mentionner l’importante restriction de notre 
 
 ### Objectif de la recherche
 
+Dès lors, l’objectif de notre recherche est d’une part, d’observer si les poèmes générés par ChatGPT 3.5 font montre d’une diversité lexicale et thématique inférieure à des poèmes humains, et d’autre part, d’analyser qualitativement ces poèmes dans le but d’explorer les mécanismes de « création » de ChatGPT. Pour ce faire, nous souhaitons comparer des poèmes générés par le modèle de langage avec des poèmes humains issus de la littérature canonique et tester les limites de ChatGPT 3.5, en comparant également les performances du modèle pour différents types de prompting.
+
 ## Données
+
+Notre dataset est constitué de 200 poèmes, divisés en 4 groupes de 50. 1 groupe de poèmes humains, et 3 groupes de poèmes générés par ChatGPT.
+
+En premier lieu, avons sélectionné **50 poèmes de la littérature "canonique"**. Les poèmes ont été écrits par les auteurs suivants: André Breton, Arthur Rimbaud, Alphonse de Lamartine, Alfred de Vigny, Charles Baudelaire, Guillaume Apollinaire, Gérard de Nerval, Jean Racine, Pierre Corneille, Pierre de Ronsard, Paul Verlaine, Stéphane Mallarmé, Tristan Tzara, Victor Hugo. 
+
+Puis, nous avons généré des poèmes avec ChatGPT [préciser version]. Nous avons testé 3 différents niveaux de prompting (pour plus sur le prompt engineering, voir par exemple https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-chatgpt.md). 
+
+Pour le **premier niveau de prompting**, nous avons donné des indications minimales. Pour chaque poème de notre dataset de "poèmes humains", nous avons généré un poème en indicant le type de poème (sonnet, poème en écriture automatique, etc.) et le style de l'auteur.
+- <span style="color:green">Ex : Écris un sonnet dans le style d'Arthur Rimbaud</span>
+
+Pour le **deuxième niveau de prompting**, nous avons donné un example à imiter. Nous avons pris chaque poème de notre dataset de "poèmes humains" et demandé à ChatGPT de générer un poème ressemblant à celui-ci. 
+
+- <span style="color:green;white-space:pre-line">Ex : Écris un poème qui ressemble à celui-ci : 
+    Napoléon mourant vit une Tête armée… 
+    Il pensait à son fils déjà faible et souffrant :
+    La Tête, c’était donc sa France bien-aimée,
+    Décapitée aux pieds du César expirant.</span>
+
+    <span style="color:green;white-space:pre-line">Dieu, qui jugeait cet homme et cette renommée,
+    Appela Jésus-Christ ; mais l’abîme s’ouvrant,
+    Ne rendit qu’un vain souffle, un spectre de fumée :
+    Le Demi-Dieu, vaincu, se releva plus grand.</span>
+    
+    <span style="color:green;white-space:pre-line">Alors on vit sortir du fond du purgatoire
+    Un jeune homme inondé des pleurs de la Victoire,
+    Qui tendit sa main pure au monarque des cieux ;</span>
+
+    <span style="color:green;white-space:pre-line">Frappés au flanc tous deux par un double mystère,
+    L’un répandait son sang pour féconder la Terre,
+    L’autre versait au ciel la semence des dieux !</span>
+ 
+ 
+ 
+ Pour le **troisième niveau de prompting**, nous avons donné des indications pour "reproduire" le poème. Nous avons indiqué le début du poème, la forme, les thèmes, les champs lexicaux, et le style général. 
+- <span style="color:green">Ex: 12.	Voici des instructions pour écrire un poème : 
+    - Commence par « Esprit parisien ! démon du Bas-Empire !
+      Vieux sophiste épuisé qui boit, toutes les nuits, »
+    - Respecte la forme sonnet (deux quatrains et deux tersets)
+    - Ecris un poème qui parle de l’Esprit parisien en le personnifiant. Prends un ton cynique et ironique pour faire une critique sociale
+    - Met en lumière l’hypocrisie, la cruauté et la superficialité de l’Esprit parisien </span>
 
 ## Méthodes 
 
