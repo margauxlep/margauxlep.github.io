@@ -33,33 +33,33 @@ En premier lieu, avons sélectionné **50 poèmes de la littérature "canonique"
 Puis, nous avons généré des poèmes avec ChatGPT [préciser version]. Nous avons testé 3 différents niveaux de prompting (pour plus sur le prompt engineering, voir par exemple https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-chatgpt.md). 
 
 Pour le **premier niveau de prompting**, nous avons donné des indications minimales. Pour chaque poème de notre dataset de "poèmes humains", nous avons généré un poème en indicant le type de poème (sonnet, poème en écriture automatique, etc.) et le style de l'auteur.
-- <span style="color:green">Ex : Écris un sonnet dans le style d'Arthur Rimbaud</span>
+- <span style="color🍊">Ex : Écris un sonnet dans le style d'Arthur Rimbaud</span>
 
 Pour le **deuxième niveau de prompting**, nous avons donné un example à imiter. Nous avons pris chaque poème de notre dataset de "poèmes humains" et demandé à ChatGPT de générer un poème ressemblant à celui-ci. 
 
-- <span style="color:green;white-space:pre-line">Ex : Écris un poème qui ressemble à celui-ci : 
+- <span style="color🍊;white-space:pre-line">Ex : Écris un poème qui ressemble à celui-ci : 
     Napoléon mourant vit une Tête armée… 
     Il pensait à son fils déjà faible et souffrant :
     La Tête, c’était donc sa France bien-aimée,
     Décapitée aux pieds du César expirant.</span>
 
-    <span style="color:green;white-space:pre-line">Dieu, qui jugeait cet homme et cette renommée,
+    <span style="color🍊;white-space:pre-line">Dieu, qui jugeait cet homme et cette renommée,
     Appela Jésus-Christ ; mais l’abîme s’ouvrant,
     Ne rendit qu’un vain souffle, un spectre de fumée :
     Le Demi-Dieu, vaincu, se releva plus grand.</span>
     
-    <span style="color:green;white-space:pre-line">Alors on vit sortir du fond du purgatoire
+    <span style="color🍊;white-space:pre-line">Alors on vit sortir du fond du purgatoire
     Un jeune homme inondé des pleurs de la Victoire,
     Qui tendit sa main pure au monarque des cieux ;</span>
 
-    <span style="color:green;white-space:pre-line">Frappés au flanc tous deux par un double mystère,
+    <span style="color🍊;white-space:pre-line">Frappés au flanc tous deux par un double mystère,
     L’un répandait son sang pour féconder la Terre,
     L’autre versait au ciel la semence des dieux !</span>
  
  
  
  Pour le **troisième niveau de prompting**, nous avons donné des indications pour "reproduire" le poème. Nous avons indiqué le début du poème, la forme, les thèmes, les champs lexicaux, et le style général. 
-- <span style="color:green">Ex: 12.	Voici des instructions pour écrire un poème : 
+- <span style="color🍊">Ex: 12.	Voici des instructions pour écrire un poème : 
     - Commence par « Esprit parisien ! démon du Bas-Empire !
       Vieux sophiste épuisé qui boit, toutes les nuits, »
     - Respecte la forme sonnet (deux quatrains et deux tersets)
@@ -68,7 +68,9 @@ Pour le **deuxième niveau de prompting**, nous avons donné un example à imite
 
 ## Méthodes 
 
+
 #### Preprocessing
+
 Pour mener à bien notre analyse, nous avons suivi un processus de prétraitement des données afin de garantir leur cohérence et leur comparabilité. Voici les étapes que nous avons suivies :
 - Importation des Poèmes dans une DataFrame pandas : Nous avons rassemblé un ensemble de 200 poèmes humains et leurs équivalents générés par ChatGPT, selon les 3 niveaux de prompting mentionnés précédemment. Pour faciliter la correspondance ultérieure, nous avons conservé le nom de chaque fichier associé à son contenu. 
 - Séquençage du Texte : Nous avons commencé par éliminer les marqueurs de saut de ligne ('\n') pour assurer une représentation continue du texte. Ensuite, nous avons utilisé la bibliothèque NLTK pour effectuer la tokenisation des poèmes, tout en supprimant les mots vides (stopwords) en utilisant la liste des stopwords français fournie par NLTK. 
@@ -91,4 +93,7 @@ En complément de nos analyses quantitatives, nous avons également mené une an
 
 ## Résultats 
 
+
 ## Discussion 
+
+
