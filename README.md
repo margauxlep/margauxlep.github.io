@@ -68,6 +68,27 @@ Pour le **deuxième niveau de prompting**, nous avons donné un example à imite
 
 ## Méthodes 
 
+#### Preprocessing
+Pour mener à bien notre analyse, nous avons suivi un processus de prétraitement des données afin de garantir leur cohérence et leur comparabilité. Voici les étapes que nous avons suivies :
+- Importation des Poèmes dans une DataFrame pandas : Nous avons rassemblé un ensemble de 200 poèmes humains et leurs équivalents générés par ChatGPT, selon les 3 niveaux de prompting mentionnés précédemment. Pour faciliter la correspondance ultérieure, nous avons conservé le nom de chaque fichier associé à son contenu. 
+- Séquençage du Texte : Nous avons commencé par éliminer les marqueurs de saut de ligne ('\n') pour assurer une représentation continue du texte. Ensuite, nous avons utilisé la bibliothèque NLTK pour effectuer la tokenisation des poèmes, tout en supprimant les mots vides (stopwords) en utilisant la liste des stopwords français fournie par NLTK. 
+
+#### Variabilité lexicale : fréquence des mots
+L'analyse de la variabilité lexicale a été réalisée en utilisant la librairie LexicalRichness, dont la documentation est disponible à l'adresse suivante : https://github.com/LSYS/LexicalRichness/blob/master/README.rst. Les étapes que nous avons suivies sont les suivantes :
+- Calcul des métriques lexicales : Nous avons calculé plusieurs métriques, notamment le nombre total de mots, le nombre de mots uniques (termes), et le ratio mots/termes, en utilisant à la fois notre propre tokenisation et celle proposée par LexicalRichness.
+- Distribution des mots : Nous avons examiné la distribution des mots en fonction de leur fréquence pour chaque niveau de prompt (humain et ChatGPT).
+- Mots les plus fréquents : Nous avons extrait les mots les plus fréquents pour chaque niveau de prompt, ce qui nous a permis d'obtenir un aperçu des termes prédominants dans chaque groupe. 
+- Indices de richesse lexicale : Nous avons calculé plusieurs indices de richesse lexicale, notamment le "Measure of Textual Lexical Diversity" (MTLD), la mesure "Hypergeometric distribution diversity" (HD-D), ainsi que la mesure de diversité lexicale de Maas. 
+- Analyse comparative : Pour évaluer la richesse lexicale des poèmes générés par ChatGPT par rapport aux poèmes humains, nous avons mesuré la déviation de ces indices par rapport au groupe de contrôle (poèmes humains). 
+
+#### Variabilité thématique : Topic Modelling
+Pour analyser la variabilité thématique des poèmes, nous avons adopté une approche de "Topic Modelling" en utilisant le modèle Latent Dirichlet Allocation (LDA). Voici les étapes que nous avons suivies :
+- Préparation des données pour le LDA : Nous avons regroupé l'ensemble des poèmes de chaque groupe (humain et ChatGPT) en un seul texte afin de former un corpus distinct pour chaque groupe.
+- Application du modèle LDA : Nous avons utilisé la bibliothèque Gensim pour exécuter le modèle LDA. Pour simplifier notre analyse, nous avons fixé le nombre de thèmes (topics) à retourner à 10. Nous avons comparé les thèmes obtenus dans l'espoir d'identifier la diversité ou la redondance des thèmes, ce qui pourrait servir d'indicateur de la diversité thématique des poèmes.
+  
+#### Analyse qualitative
+En complément de nos analyses quantitatives, nous avons également mené une analyse qualitative approfondie des poèmes générés par ChatGPT et des poèmes humains. Cette analyse nous a permis de capturer des éléments tels que le style, l'émotion, les métaphores et les thèmes sous-jacents présents dans les poèmes. Cette approche qualitative nous a fourni un aperçu holistique et nuancé de la nature des textes produits par les deux groupes.
+
 ## Résultats 
 
 ## Discussion 
