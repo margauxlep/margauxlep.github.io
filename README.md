@@ -93,7 +93,14 @@ En complément de nos analyses quantitatives, nous avons également mené une an
 
 ## Résultats 
 
+### 1. Variabilité lexicale 
 
-## Discussion 
+### 2. Variabilité thématique 
+
+### 3. Analyse qualitative : exemple de poèmes 
+
+# Supplément : Questionnaire 
+
+
 
 
