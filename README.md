@@ -102,7 +102,7 @@ Pour nous faire une meilleure idée de la manière dont ChatGPT 3.5 génère des
 
 ### Comparaison des niveaux de prompt 
 
-![Le Dormeur du Val](images/ddv.jpeg)
+![Le Dormeur du Val](images/ddv.jpg)
 
 #### Niveau 1  
 Le poème de niveau 1 a été généré à partir du prompt : « Écris un sonnet dans le style d’Arthur Rimbaud ». Première constatation, le poème généré ne respecte pas la forme sonnet, mais est constitué de quatre quatrains, avec des rimes alternées, dont plusieurs sont ratées (froissent, flamboie ; insatiable, impossible ; oubliés, défis). Le premier quatrain contient quatre alexandrins, mais cette rigueur rythmique est abandonnée dans la suite du poème. 
