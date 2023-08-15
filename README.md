@@ -68,6 +68,7 @@ Pour le **deuxième niveau de prompting**, nous avons donné un example à imite
 
 ## Méthodes 
 
+Dans cette section, nous allons décrire brièvement notre méthode de travail. 
 
 #### Preprocessing
 
@@ -128,7 +129,7 @@ Il a été demandé en prompt de décrire un personnage. Cette requête semble a
 Toutefois, le poème contient quelques éléments intéressants. Au vers 4, il est fait mention de la guerre, alors que cela n’était pas spécifié en prompt. De plus, la comparaison au vers 9 : « Son visage paisible, tel un marbre délicat », est très pertinente pour décrire un mort.
 
 
-#### Demain, dès l’aube… 
+![Demain des l'aube](images/ddla.jpg)
 
 Pour les poèmes générés à partir de Demain, dès l’aube… de Victor Hugo, des considérations analogues à celles faites pour le Dormeur du val s’appliquent, nous serons dès lors plus bref dans notre analyse. Le poème de niveau 1 est tout à fait plat, ne contenant que des images banales, un champ lexical pauvre et une structure grammaticale peu complexe. Il y est à nouveau question de la beauté de la nature, des phénomènes atmosphériques et océaniques (« nuages », « vagues », « vent »). Les mots « vie », « souffle », et « instant » sont répétés deux fois. Le texte contient en outre une répétition incohérente : « las et las », au vers 2. La dernière strophe du poème (« Et je me rappelle […] Que la vie est un souffle […] Et qu’il nous appartient […] De cueillir la beauté […] ») se présente comme une sorte de conclusion, explicitant la « morale » du poème, ce qui semble également être une caractéristique récurrente des poèmes générés par ChatGPT.
 
