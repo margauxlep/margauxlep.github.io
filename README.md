@@ -146,6 +146,29 @@ En somme, l’on parvient, avec cette brève analyse, à dégager plusieurs cara
 
 # Supplément : Questionnaire 
 
+En guise de supplément à notre analyse de poèmes, nous avons conçu un questionnaire, que nous avons fait passer à une quinzaine de personnes. Nous espérons ainsi enrichir notre analyse et obtenir une idée de l’appréciation générale des poèmes – notamment en fonction des différents niveaux de prompt – en bénéficiant pour ainsi dire d’un « œil externe ». Notons qu’il ne s’agit dès lors pas d’effectuer une analyse quantitative, ou d’établir des mesures basées sur les résultats de ce questionnaire, mais plutôt d’une « prise de la température », qui permettra – nous l’espérons – de motiver une réflexion théorique future.
 
+## Description
+
+Pour préparer le questionnaire, nous avons sélectionné de manière aléatoire 5 poèmes pour chaque niveau de prompt, soit un total de 15 poèmes issus de notre dataset initial (voir section _Données_). Les 15 poèmes sont ensuite présentés dans un ordre aléatoire, mais identique pour chaque participant.e, et pour chacun d’entre eux, les trois choses suivantes sont demandées : 
+-	Lisez le poème suivant, et indiquez si vous pensez que celui-ci a été écrit par un humain ou par une machine. (Question à choix multiple : humain/machine)
+-	Quels sont les éléments textuels qui ont motivé votre choix ? (Question ouverte)
+-	Comment évalueriez-vous la qualité poétique de ce poème ? (Note entre 1 et 5, avec 1 : « Pas intéressant du tout, et 5 : « Émouvant, stimulant »)
+Une section supplémentaire a été ajoutée à la fin, pour que les participant.e.s puissent ajouter des commentaires généraux, s’ils ou elles le souhaitent.
+
+### Objectif
+
+La question « humain/machine » est un prétexte. En effet, il ne s’agit pas ici de réaliser un test de Turing, d’autant que les participant.e.s sont d’emblée induit.e.s en erreur du fait que le questionnaire ne contient en réalité aucun poème écrit par un humain. Par ce procédé quasi-rhétorique, nous souhaitons plutôt voir si les poèmes de niveau 2 ou 3 sont plus facilement labellés « humains », ce qui indiquerait que la complexité du prompting joue un rôle dans la « vraisemblance » des textes. En outre, nous sommes particulièrement intéressés à la manière dont le choix « humain/machine » est _justifié_ ; quelles sont les _raisons_ qui mènent les participant.e.s à évaluer un texte comme étant probablement humain ou probablement écrit de manière automatique?
+
+
+## Résultats 
+
+### H/M et notes
+
+### Justification 
+
+## Discussion et implication 
+
+## Limites et considérations méthodologiques
 
 
