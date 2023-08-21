@@ -182,11 +182,11 @@ Toutefois, nous nous gardons d’accorder trop d’importance à ces résultats.
 Nous allons à présent nous intéresser aux justifications données par les répondant.e.s dans la catégorisation des poèmes comme « humains » ou « machines ». En effet, selon nous l’on peut, parmi celle-ci, identifier différents types de justifications, dont nous allons traiter tour à tour.
 
 #### Cohérence, fil conducteur 
-L’argument le plus avancé est celui de la **cohérence**. En effet, presque tous les participant.e.s au questionnaire la mentionnent comme un critère de justification. Un texte incohérent est considéré comme probablement issu d’une machine, alors qu’un texte cohérent est considéré comme probablement issu d’un humain. La justification de la cohérence est donc utilisée dans les deux cas ; lorsque le texte est incohérent mais aussi lorsque le texte est cohérent. Comme on peut le voir dans l’échantillon de réponses suivant. Les premiers sont des arguments avancés pour justifier le vote « machine » :  
+L’argument le plus avancé est celui de la cohérence. En effet, presque tous les participant.e.s au questionnaire la mentionnent comme un critère de justification. Un texte incohérent est considéré comme probablement issu d’une machine, alors qu’un texte cohérent est considéré comme probablement issu d’un humain. La justification de la cohérence est donc utilisée dans les deux cas ; lorsque le texte est incohérent mais aussi lorsque le texte est cohérent. Comme on peut le voir dans l’échantillon de réponses suivant. Les premiers sont des arguments avancés pour justifier le vote « machine » :  
 
 ![qa2](images/qa2.png)
 
-Alors que les suivants sont des arguments avancés pour justifier le vote « humains » : ![image]
+Alors que les suivants sont des arguments avancés pour justifier le vote « humains » :
 
 ![qa3](images/qa3.png)
 
@@ -209,7 +209,7 @@ Ainsi, le caractère attendu des poèmes correspond à ce que l’on s’attend 
 Outre ces deux éléments principaux, que sont la cohérence et l’originalité, d’autres types de justifications sont avancés, qui méritent également notre attention.
 
 #### Complexité
-Assez similaire à l’argument de l’originalité, l’argument de la **complexité** est également mentionné. Tant lorsque le poème est trop simple, et donc probablement écrit pas une machine : 
+Assez similaire à l’argument de l’originalité, l’argument de la complexité est également mentionné. Tant lorsque le poème est trop simple, et donc probablement écrit pas une machine : 
 
 ![qa7](images/qa7.png)
 
