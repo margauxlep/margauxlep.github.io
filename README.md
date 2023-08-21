@@ -113,7 +113,7 @@ Le verdict est sans appel. Les mots les plus fréquentes des poèmes humains son
 
 Les indices de diversité lexicales soutiennent également ces premières observations. Les valeurs moyennes des trois différentes indices pour chaque groupes sont présentées dans la figure ci-dessous. Ces résultats correspondent à ce que l'on pouvait attendre. En effet, la valeur moyenne de MLTD la plus élevée pour le groupe des poèmes humains, et la moins élevée pour les poèmes de ChatGPT niveau 1, suggérant que ceux-ci font montre d'une diversité lexicale moindre. En outre, il est intéressant de remarquer que la valeur moyenne entre le niveau 1 et le niveau 2 augmente d'environ 12%, entre le niveau 2 et le niveau 3 d'environ 16%, et  d'environ 11% entre le niveau 3 et les poèmes humains ; soit une augmentation assez régulière à chaque fois. Donc, bien que le groupe "humain" soit en tête de pellotton, il n'est pas "si loin devant".  L'on observe une progression analogue pour l'index hd-d ; avec une augmentation d'environ un à deux pourcents, progressant des poèmes ChatGPT niveau 1 aux poèmes humains.
 
-
+![index LD](images/index_mean.png)
 
 ## 2. Analyse qualitative : exemple de poèmes 
 
