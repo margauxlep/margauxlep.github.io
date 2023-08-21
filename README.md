@@ -115,6 +115,11 @@ Les indices de diversité lexicales soutiennent également ces premières observ
 
 ![index LD](images/index_mean.png)
 
+Toutefois, rappelons que la moyenne n’est pas un indicateur très robuste, et bien que ces valeurs semblent confirmer notre hypothèse, celles-ci pourraient être biaisées par quelques valeurs extrêmes (_outliers_). Dès lors, la mesure de la déviation par rapport au groupe de contrôle (telle que présentée dans la section méthodes) est plus informative et statistiquement solide. Les deux graphiques ci-dessous nous montrent les résultats de notre analyse. Les boxplots nous montrent la distribution de l’écart par rapport au groupe de contrôle, pour chaque groupe (ChatGPT niveau 1, 2 et 3). Tant pour l’indicateur MTLD que HD-D, l’on observe une progression, allant du niveau 1 au niveau 3, le niveau 3 étant le plus proche de zéro, à savoir de l’écart nul. Toutefois cette tendance apparait comme relativement timide. 
+
+![boxplot mtld](images/mtld.png)
+![boxplot hdd](images/hdd.png)
+
 ## 2. Analyse qualitative : exemple de poèmes 
 
 Pour nous faire une meilleure idée de la manière dont ChatGPT 3.5 génère des poèmes, nous allons présenter quelques exemples, à savoir, les trois poèmes générés à partir du sonnet d’Arthur Rimbaud, _Le Dormeur du val_, ainsi que les trois poèmes générés à partir du poème de Victor Hugo, _Demain, dès l’aube…_ (voir images ci-dessous). Nous souhaitons ainsi i) comparer les résultats des trois niveaux de prompt, ii) établir les caractéristiques d’écriture de ChatGPT 3.5, ainsi que les différences dans le style des poèmes en fonction de leur niveau de prompt, et iii) déterminer si les scores qu’obtiennent ces poèmes pour les différents indices de diversité lexicale correspondent à notre intuition. 
