@@ -102,6 +102,19 @@ Comme l’on peut le voir dans le graphique ci-dessous, les poèmes générés p
 
 ![Dist Fréquence des mots](images/frequence_des_mots.png)
 
+Le corpus de poèmes humains contient 10 mots présents plus de 15 fois. Ces mots sont : « quand », « a », « sous », « où », « si », « comme », « tout », « bien », et « plus ».
+Le corpus de poèmes de niveau 1 contient 21 mots présents plus de 15 fois. Ces mots sont : « ciel », « nuit », « beauté », « sans », « étoiles », « pensées », « sens », « vers », « comme », « vie », « où », « monde », « l’amour », « cœur », « temps », « mots », « vent », « tout », « a », « d’un », et « ô ».
+
+Le corpus de poèmes de niveau 2 contient 19 mots présents plus de 15 fois. Ces mots sont : « nuit », « vent », « sous », « soleil », « monde », « vie », « a », « yeux », « jamais », « où », « sans » temps », « plus », « comme », « amour », « ciel », « tout », « si », et « cœur ».
+
+Le corpus de poèmes de niveau 3 contient 35 mots présents plus de 15 fois. Ces mots sont : « tel », « cieux », « éclat », « doux », « car », « jamais », « beauté », « ô », « d’un », « amour », « cœur », « où », « yeux », « comme », « d’une », « l’amour », « temps », « si », « vie », « a », « sans », « leurs », « échos », « monde », « nuit », « cette », « étoiles », « vers », « mots », « ainsi », « sonnet, « éternel », « âme », « poème », « silence ».
+
+Le verdict est sans appel. Les mots les plus fréquentes des poèmes humains sont presque exclusivement des adverbes de liaison, et tous des mots au contenu sémantique moindre, des « stopwords », qui ont échappé à notre filtrage en pre-processing. Au contraire, les mots fréquents dans les poèmes de ChatGPT sont aussi des noms, issus notamment du champ lexical de l’amour (« amour », « cœur »), des phénomènes atmosphériques (« soleil », « vent », « nuit », « étoiles », etc.), des généralité métaphysiques (« vie », « monde », « temps ») ainsi – pour les poèmes de niveau 3, du champ lexical de la poésie elle-même (« mots », « sonnet », « poème »).
+
+Les indices de diversité lexicales soutiennent également ces premières observations. Les valeurs moyennes des trois différentes indices pour chaque groupes sont présentées dans la figure ci-dessous. Ces résultats correspondent à ce que l'on pouvait attendre. En effet, la valeur moyenne de MLTD la plus élevée pour le groupe des poèmes humains, et la moins élevée pour les poèmes de ChatGPT niveau 1, suggérant que ceux-ci font montre d'une diversité lexicale moindre. En outre, il est intéressant de remarquer que la valeur moyenne entre le niveau 1 et le niveau 2 augmente d'environ 12%, entre le niveau 2 et le niveau 3 d'environ 16%, et  d'environ 11% entre le niveau 3 et les poèmes humains ; soit une augmentation assez régulière à chaque fois. Donc, bien que le groupe "humain" soit en tête de pellotton, il n'est pas "si loin devant".  L'on observe une progression analogue pour l'index hd-d ; avec une augmentation d'environ un à deux pourcents, progressant des poèmes ChatGPT niveau 1 aux poèmes humains.
+
+
+
 ## 2. Analyse qualitative : exemple de poèmes 
 
 Pour nous faire une meilleure idée de la manière dont ChatGPT 3.5 génère des poèmes, nous allons présenter quelques exemples, à savoir, les trois poèmes générés à partir du sonnet d’Arthur Rimbaud, _Le Dormeur du val_, ainsi que les trois poèmes générés à partir du poème de Victor Hugo, _Demain, dès l’aube…_ (voir images ci-dessous). Nous souhaitons ainsi i) comparer les résultats des trois niveaux de prompt, ii) établir les caractéristiques d’écriture de ChatGPT 3.5, ainsi que les différences dans le style des poèmes en fonction de leur niveau de prompt, et iii) déterminer si les scores qu’obtiennent ces poèmes pour les différents indices de diversité lexicale correspondent à notre intuition. 
