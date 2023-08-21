@@ -98,7 +98,9 @@ En complément de nos analyses quantitatives, nous avons également mené une an
 
 ## 1. Variabilité lexicale 
 
+Comme l’on peut le voir dans le graphique ci-dessous, les poèmes générés par ChatGPT contiennent plus de mots fréquemment utilisés que les poèmes humains de notre dataset. On voit en effet que dans l’ensemble des poèmes humain, il n’y a que trois mots qui apparaissent plus de 20 fois, sans compter les mots « vides » (_stopwords_) supprimés lors du pre-processing, alors que les trois niveaux de poèmes ChatGPT en ont bien plus. D’une manière générale, la queue (_tail_) de la distribution de la fréquence de mots apparait comme plus épaisse pour les poèmes générés par ChatGPT. 
 
+![Dist Fréquence des mots](images/frequence_des_mots.png)
 
 ## 2. Analyse qualitative : exemple de poèmes 
 
