@@ -167,8 +167,114 @@ Première constatation, les résultats sont loin d’être univoques. L’on obs
 
 ![qa1](images/qa1.png)
 
+Toutefois, nous allons tout de même brièvement présenter les résultats obtenus dans la section suivante.
 
+### Différences d’évaluation dans les niveaux de prompt
 
+D’une manière générale, les poèmes de niveau 1 sont ceux qui ont globalement été jugés les plus mauvais. Seul un des cinq poèmes a été évalué majoritairement comme étant « humain » (8 personnes sur 13), et c’est dans cette catégorie que l’on trouve le poème avec le taux de réponse « machine » le plus élevé (12 personnes sur 14). Les notes, visant à évaluer la qualité poétique des poèmes sont également les plus basses dans cette catégorie, quatre des cinq poèmes ayant une évaluation modale de 1. De façon assez intéressante, le poème avec la meilleure évaluation de sa catégorie (mode de 3), n’est pas celui qui a majoritairement été évalué comme ayant été écrit par un humain. Nous reviendrons d’ailleurs sur ce point plus tard.
 
+En ce qui concerne les poèmes de niveau 2 et 3, il ne semble pas y avoir de différence tendancielle dans les évaluations ; deux poèmes sur les cinq ont été évalués majoritairement comme étant écrits par un humain dans les deux niveaux. Les deux poèmes ayant le plus haut taux de votes « humain » (12 personnes sur 13, et 11 personnes sur 14) appartiennent tous deux au niveau 3. Cependant, les poèmes de niveau 2 ont des notes de qualité poétiques légèrement meilleures, avec deux poèmes sur les cinq ayant une note modale de 3, contre seulement un pour les poèmes de niveau 3. 
 
+Toutefois, nous nous gardons d’accorder trop d’importance à ces résultats. Car, comme nous l’avons dit plus haut, non seulement notre questionnaire n’a pas été conçu pour faire l’objet d’une analyse statistique, mais notre échantillon de réponses est trop petit et biaisé pour que les résultats de notre questionnaire puissent être considéré comme significatifs de quelque manière que ce soit. 
+
+### Justification 
+
+Nous allons à présent nous intéresser aux justifications données par les répondant.e.s dans la catégorisation des poèmes comme « humains » ou « machines ». En effet, selon nous l’on peut, parmi celle-ci, identifier différents types de justifications, dont nous allons traiter tour à tour.
+
+#### Cohérence, fil conducteur 
+L’argument le plus avancé est celui de la **cohérence**. En effet, presque tous les participant.e.s au questionnaire la mentionnent comme un critère de justification. Un texte incohérent est considéré comme probablement issu d’une machine, alors qu’un texte cohérent est considéré comme probablement issu d’un humain. La justification de la cohérence est donc utilisée dans les deux cas ; lorsque le texte est incohérent mais aussi lorsque le texte est cohérent. Comme on peut le voir dans l’échantillon de réponses suivant. Les premiers sont des arguments avancés pour justifier le vote « machine » :  
+
+![qa2](images/qa2.png)
+
+Alors que les suivants sont des arguments avancés pour justifier le vote « humains » : ![image]
+
+![qa3](images/qa3.png)
+
+L’on remarque également que la cohérence est considérée sur le plan sémantique comme formel. On mentionne tantôt des « contradictions dans le sens du texte », des « phrases qui répètent la même idée », ou des « arguments construits », une « progression dans le récit », mais également des éléments formels : « structure », « bonnes rimes », etc. En outre, la présence d’éléments nonsensiques dans certains poèmes sert également de justification ; ceux-ci se présentent comme des éléments qui _trahissent_ la machine :
+
+![qa4](images/qa4.png)
+
+#### Originalité
+
+Le second élément le plus largement cité, est l’originalité. Un poème est donc catégorisé comme probablement car il est (plus) original, et/ou contient des éléments inattendus : 
+
+![qa5](images/qa5.png)
+
+À nouveau, l’on remarque que l’originalité se note tant dans le fond – « originalité de la thématique » – que dans la forme – « ruptures de syntaxes ». À l’inverse, les poèmes qui ne présentent pas d’éléments originaux ou inattendus, jugés « banals » ou pleins de « lieux communs » sont attribués à des machines : 
+
+![qa6](images/qa6.png)
+
+Ainsi, le caractère attendu des poèmes correspond à ce que l’on s’attend à ce qu’une machine soit capable de faire ; un poème simple, reprenant des « des combinaisons de mots qui doivent revenir beaucoup sur internet », résultant en un poème qui correspond à « ce qu’on s’imagine qu’est la poésie », donnant finalement une impression de « complétion automatique ». En effet, l’on s’attend à ce que des métaphores communes soient plus facilement reproductibles, comme le fait remarquer un.e répondant.e à qui certaines figures de style apparaissent comme issues de « banques d’images métaphoriques assez standardisées ». 
+
+Outre ces deux éléments principaux, que sont la cohérence et l’originalité, d’autres types de justifications sont avancés, qui méritent également notre attention.
+
+#### Complexité
+Assez similaire à l’argument de l’originalité, l’argument de la **complexité** est également mentionné. Tant lorsque le poème est trop simple, et donc probablement écrit pas une machine : 
+
+![qa7](images/qa7.png)
+
+... Que lorsqu’au contraire, celui-ci est considéré comme étant trop complexe pour avoir pu être généré par une machine :
+
+![qa7b](images/qa7b.png)
+
+À nouveau les arguments ici trouvent leur origine dans ce que l’on s’imagine qu’un algorithme est capable de produire. Dès lors, un certain niveau de complexité peut apparaitre comme (encore) inaccessible à un modèle de langage comme ChatGPT. Encore une fois, ce qui nous intéresse est bien l’évaluation subjective des participant.e.s, et donc le fait que la complexité soit avancée comme un _critère de discrimination_ entre humain et machine, et non les capacités effectives des algorithmes à atteindre un degré de complexité élevée, mais nous y reviendrons.
+
+De manière intéressante, l’on trouve également le pendant inverse de l’argument de la complexité, à savoir l’argument « trop mauvais pour une machine ». L’on a aussi affaire ici à ce que l’on s’imagine qu’un algorithme est capable de produire, mais dans son versant « optimiste », pour ainsi dire. Ainsi, certains poèmes ont été attribués à un humain car ils contenaient des irrégularités, ou étaient simplement considérés comme trop « mauvais » pour avoir été écrits par un algorithme : 
+
+![qa8](images/qa8.png)
+
+Ainsi, l’on retrouve la même idée que dans l’argument de l’originalité, à savoir que la machine produit un contenu régulier, et lisse ; ce qui a pour conséquence que le contenu est attendu et manque d’originalité, mais le préserve également de faire des erreurs, ou d’être « trop mauvais ».
+
+#### Explicitation
+
+Un autre élément régulièrement avancé pour justifier le choix « machine » est le trope de l’explicitation. En effet, ChatGPT explicite toujours ce qu’il fait ; nous l’avons d’ailleurs relevé dans notre section d’analyse des poèmes générés. Et ce trait semble avoir été repéré de nombreuses fois : 
+
+![qa9](images/qa9.png)
+
+Ainsi, le caractère trop explicite des poèmes, le fait qu’il semble contenir une explication littérale trahit son auteur algorithmique. Toutefois, la raison pour cela n’est pas forcément évidente. Est-ce dû au fait que les personnes ayant répondu au questionnaire connaissent ChatGPT et sont familier.e.s de ses « habitudes » ? Ou est-ce uniquement dû au fait que l’explicitation, dans le cadre de la poésie, n’a pas l’air naturelle ? Car en effet, l’explicitation semble être un trait propre à ChatGPT en particulier – un modèle de langage entrainé principalement pour répondre à des questions et résumer des propos – et ne devrait pas forcément s’appliquer à n’importe quel modèle de langage. Toutefois ici, c’est peut-être aussi le caractère _systématique_ de cette explicitation qui trahit la machine.
+
+####  (Non-)neutralité
+Un autre type d’argument, pourraient être regroupés sous l’égide de la « non-neutralité ». En effet, l’on trouve plusieurs commentaires justifiant le choix de l’auteur « humain » par le fait que celui-ci ne semble, pour ainsi dire, pas neutre : 
+
+![qa10](images/qa10.png)
+
+Ici, c’est le caractère non-universel, situé, du poème qui semble déterminant (« n’est pas vraiment universel », « choix trop orienté »), ainsi que l’imputation d’une forme d’agentivité à l’auteur (« semble volontaire », « pour le style »). Ainsi, lorsque l’auteur du poème semble posséder une situation propre et spécifique, lorsqu’il n’apparait pas moralement, ou stylistiquement neutre, cela se présente comme un argument pour lui imputer de l’humanité. En d’autres termes, l’on ne s’attend pas à ce qu’une machine reproduise le discours d’un être situé. À l’inverse, lorsque le texte semble trop neutre, cela peut aussi servir d’argument :
+
+![qa11](images/qa11.png)
+
+En somme, ces arguments sont issus de la conception que la machine est une instance neutre, au contraire des humains.
+
+#### Beauté 
+
+Finalement, la beauté du poème reste un critère d’évaluation. Soit en ce qu’il est jugé explicitement comme tel – beau, soit parce que les sonorités ou le rythme du poème apparaissent comme travaillés. En témoignent ces commentaires justifiant l’attribution humaine du poème :
+
+![qa12](images/qa12.png)
+
+Dans l’autre sens également, lorsqu’un poème est jugé laid, lorsque les phrases ne sonnent pas bien, cela peut servir de justification à l’attribution du poème à une entité artificielle : 
+
+![qa13](images/qa13.png)
+
+Outre l’appréciation des compétences – ou non – de jugement esthétique chez une machine, l’appel aux sonorités du poème s’explique aussi, du fait que l’on a affaire à un modèle de langage entrainé sur du texte uniquement. Ainsi, l’on observe certaines phrases qui semblent en effet « sonner mal », ou du moins, sonner trop mal pour avoir été écrites par un humain. 
+
+Semblable à la beauté, l’émotivité, ou la capacité du poème à susciter des émotions à quelquefois été mentionnée comme justification : 
+
+![qa14](images/qa14.png)
+
+Toutefois, il est intéressant de remarquer que ce type de justification est minoritaire dans notre échantillon de réponses.  Et ceci, quand bien même le « but » de la poésie – si tant est qu’il y en ait un – semble justement de provoquer une réaction émotionnelle. Cela dit, les poèmes étant d’une qualité jugée très faible par quasi tou.te.s les participant.e.s, il est possible que les poèmes – qu’ils soient humains ou artificiels – aient d’office été considérés comme échouant à provoquer des émotions.
+
+#### Humain ou ChatGPT : pas de monopole de la médiocrité
+
+Sur la question de la qualité poétique des poèmes, nous avons mentionné le fait que ceux-ci ont été jugés comme globalement très mauvais par la majorité des participant.e.s. Cette médiocrité n’est toutefois pas jugée comme étant le signe d’un poème écrit par une intelligence artificielle plutôt qu’humaine. En effet, la majorité des répondant.e.s au questionnaire (8 personnes sur 14) ont évalué certains poèmes qu’ils ou elles pensaient écrits par des machines comme étant d’une qualité poétique supérieure à d’autres poèmes qu’ils ou elles pensaient avoir été écrits par des humains. L’idée que la machine ne possède pas le monopole de la médiocrité poétique a d’ailleurs été mentionnée plusieurs fois :
+
+![qa15](images/qa15.png)
+
+Ainsi, si nous avons vu plus haut que le manque d’originalité, l’utilisation de mots simples et de lieux communs, étaient utilisés comme des critères de justification à l’origine supposément artificielle de poèmes, ces caractéristiques se retrouvent aussi largement dans de nombreuses productions humaines. Comme le suggère le dernier commentaire cité, l’évaluation n’a de sens que si l’on considère que l’on a affaire à de « bons » poèmes humains (des poèmes publiés, d’une certaine qualité), mais si l’on considère les productions humaines dans leur ensemble, alors l’on n’est plus sûr de rien ; car les humains peuvent tout à fait écrire aussi mal, voire plus mal que des machines – comme en témoignent les poèmes jugés « trop mauvais pour une machine » dont nous avons traité plus haut. Dès lors, l’évaluation qualitative est rendue asymétrique : Nous ne sommes pas sûr qu’une IA puisse écrire un bon poème, en revanche, nous sommes certains que les humains sont capables d’en produire de très mauvais !
+
+### Conclusion 
+
+L’analyse des réponses obtenues à notre questionnaire nous a permis de voir que les poèmes de niveau 2 et 3 sont tendanciellement plus facilement qualifiés d’humains que des poèmes de niveau 1 et globalement évalués comme étant d’une qualité supérieure. Toutefois, les poèmes restent tout de même majoritairement considérés comme mauvais et ne « trompent » pas facilement les lecteurs et lectrices, très indécis.e et rarement unanimes quant à l’attribution de l’origine humaine ou artificielle des poèmes. Toutefois, l’analyse des justifications du choix de l’attribution du type d’auteur pour les poèmes s’est révélée plus concluante, révélant des tendances nettes, et des typologies d’arguments confirmant nos intuitions. Nous avons pu voir que la cohérence et l’originalité constituent les deux éléments de discrimination principaux, tant pour justifier l’attribution « humaine » que pour justifier l’attribution « machine ». En outre, nous avons également relevé d’autre types de justifications, moins omniprésents mais tout de même récurrents, à savoir la complexité du poème, le topos de l’explicitation, la non-neutralité du propos, et la qualité esthétique du poème.
+
+Il est intéressant de noter que nombre de ces critères, lorsqu’ils servent de justification à l’attribution humaine du poème, ont été en réalité artificiellement implémentés. Typiquement, les poèmes de niveau 2 ont été généré avec la consigne de copier un poème existant. Or nous avons vu, lors de notre analyse qualitative des poèmes, que ChatGPT se contente souvent de remplacer les termes du poème par des équivalents, tout en conservant la structure grammaticale initiale du poème. Ainsi, ceux-ci apparaissent comme plus originaux au niveau de la forme – car celle-ci a été donnée en prompt. De la même manière les poèmes de niveau 3 sont plus originaux dans le fond, car la thématique du poème et son propos ont cette fois-ci été donnés en prompt. En outre, le caractère non-neutre de certains poèmes, par l’orientation spécifique du sujet, ou l’engagement du propos, qui a pu les disqualifier comment potentiels produits d’une machine, est lui aussi du a des consignes implémentées dans le prompting.  Il possède donc effectivement une origine humaine. 
+
+Finalement, les réponses que nous avons obtenues à ce questionnaire, nous ont permis de confirmer certaines de nos intuitions. En effet, les prompts plus complexes améliorent la qualité des poèmes mais ceux-ci restent tout de même trop standardisés, et pas assez variés. Ceux-ci sont également victime d’une explicitation systématique, qui semble être le propre de ChatGPT. Ainsi, les poèmes apparaissent comme sensiblement moins variés que des productions humaines, le manque d’originalité et la récurrence des thématiques abordées étant systématiquement pointées.
 
