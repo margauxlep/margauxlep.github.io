@@ -163,12 +163,11 @@ La question « humain/machine » est un prétexte. En effet, il ne s’agit pas 
 
 ## Résultats 
 
-### H/M et notes
+Première constatation, les résultats sont loin d’être univoques. L’on observe en effet une grande disparité dans les réponses, tant dans l’appréciation de la qualité des poèmes que dans l’attribution de l’auteur – humain ou machine. Outre le fait évident que nous avons trop peu d’échantillons pour observer de véritables _tendances_ statistiques, cette variabilité est probablement due au fait que les évaluateurs.trices répondant au questionnaire ne possédaient presque aucun point de repère. En effet, très peu d’informations ont été données, et aucune sur la provenance des poèmes, leur contexte d’écriture, etc., rendant ainsi l’évaluation très inhabituelle. Ce fait a d’ailleurs été relevé par une personne dans les commentaires généraux : 
 
-### Justification 
+\``` Sans savoir ce que chat gpt sait ou peut savoir ni connaître le niveau de l’humain c’est vraiment difficile
+Toutefois, nous allons tout de même brièvement présenter les résultats obtenus dans la section suivante. 
 
-## Discussion et implication 
 
-## Limites et considérations méthodologiques
 
 
