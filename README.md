@@ -84,7 +84,7 @@ L'analyse de la variabilité lexicale a été réalisée en utilisant la librair
 - Distribution des mots : Nous avons examiné la distribution des mots en fonction de leur fréquence pour chaque niveau de prompt (humain et ChatGPT).
 - Mots les plus fréquents : Nous avons extrait les mots les plus fréquents pour chaque niveau de prompt, ce qui nous a permis d'obtenir un aperçu des termes prédominants dans chaque groupe. 
 - Indices de richesse lexicale : Nous avons calculé plusieurs indices de richesse lexicale, notamment le "Measure of Textual Lexical Diversity" (MTLD), la mesure "Hypergeometric distribution diversity" (HD-D), ainsi que la mesure de diversité lexicale de Maas. 
-- Analyse comparative : Pour évaluer la richesse lexicale des poèmes générés par ChatGPT par rapport aux poèmes humains, nous avons mesuré la déviation de ces indices par rapport au groupe de contrôle (poèmes humains). 
+- Analyse de ces indices en mesurant la déviation par rapport au groupe de contrôle (poèmes humains). En effet, chaque poème humain de notre dataset ayant servi de base pour un et un seul poème pour chacun des trois niveaux de prompting, les poèmes sont donc « regroupables » (_matching_) ; à chaque poème humain, correspond un poème de niveau 1, un poème de niveau 2 et un poème de niveau 3. Dès lors, nous avons calculé, pour chaque indice de richesse lexicale mentionné plus haut, la différence, pour chaque poème généré par ChatGPT avec son correspondant dans le groupe de contrôle (poème humain).
 
 #### Variabilité thématique : Topic Modelling
 Pour analyser la variabilité thématique des poèmes, nous avons adopté une approche de "Topic Modelling" en utilisant le modèle Latent Dirichlet Allocation (LDA). Voici les étapes que nous avons suivies :
