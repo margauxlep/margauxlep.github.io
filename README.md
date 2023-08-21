@@ -72,7 +72,7 @@ Pour le **deuxième niveau de prompting**, nous avons donné un example à imite
 
 Dans cette section, nous allons décrire brièvement notre méthode de travail. 
 
-#### Preprocessing
+**Preprocessing**
 
 Pour mener à bien notre analyse, nous avons suivi un processus de prétraitement des données afin de garantir leur cohérence et leur comparabilité. Voici les étapes que nous avons suivies :
 - Importation des Poèmes dans une DataFrame pandas : Nous avons rassemblé un ensemble de 200 poèmes humains et leurs équivalents générés par ChatGPT, selon les 3 niveaux de prompting mentionnés précédemment. Pour faciliter la correspondance ultérieure, nous avons conservé le nom de chaque fichier associé à son contenu. 
@@ -97,6 +97,8 @@ En complément de nos analyses quantitatives, nous avons également mené une an
 # Résultats 
 
 ## 1. Variabilité lexicale 
+
+
 
 ## 2. Analyse qualitative : exemple de poèmes 
 
