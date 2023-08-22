@@ -103,6 +103,7 @@ Comme l’on peut le voir dans le graphique ci-dessous, les poèmes générés p
 ![Dist Fréquence des mots](images/frequence_des_mots.png)
 
 Le corpus de poèmes humains contient 10 mots présents plus de 15 fois. Ces mots sont : « quand », « a », « sous », « où », « si », « comme », « tout », « bien », et « plus ».
+
 Le corpus de poèmes de niveau 1 contient 21 mots présents plus de 15 fois. Ces mots sont : « ciel », « nuit », « beauté », « sans », « étoiles », « pensées », « sens », « vers », « comme », « vie », « où », « monde », « l’amour », « cœur », « temps », « mots », « vent », « tout », « a », « d’un », et « ô ».
 
 Le corpus de poèmes de niveau 2 contient 19 mots présents plus de 15 fois. Ces mots sont : « nuit », « vent », « sous », « soleil », « monde », « vie », « a », « yeux », « jamais », « où », « sans » temps », « plus », « comme », « amour », « ciel », « tout », « si », et « cœur ».
