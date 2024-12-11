@@ -1,4 +1,4 @@
-# Variabilité lexicale et thématique dans des poèmes générés par ChatGPT: Analyse sur différents niveau de prompting
+# Variabilité lexicale et thématique dans des poèmes générés par ChatGPT: Analyse sur différents niveaux de prompting
 
 ## Résumé 
 
